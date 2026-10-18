@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+.tugma{
+    background-color: #BA4270;
+    border-radius: 24px;
+    color: white;
+    padding: 15px;
+    border: none;
+    
+    
+}
+ul li{
+    color: #36536B;
+     font-size: 15px;
+     
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 30px ;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.phone{
+    display: flex;
+}
+.phone h1{
+    padding: 152px;
+    color: #36536B;
+    font-size: 72px;
+}
+.code{
+     display: flex;
+     align-items: center;
+     
+}
+.code2{
+    align-items: center;
+}
+.code2 h1{
+    color: #36536B;
+    font-size: 48px;
+   margin-bottom: 20px;
+}
+.code2 p{
+    color: #6C8294;
+    font-size: 15px;
+    
+}
+.ota{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ota div p{
+   padding-top: 20px;
+   /* align-items: center; */
+}
+.ota div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.oxir{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 30px ;
+    
+}
+footer{
+    
+    background-color: #1B262F;
+}
+footer ul li{
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    margin-left: 400px;
+}
+.burger{
+    display: none;
+}
+@media  screen and (max-width: 1100px) {
+    .phone{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .code{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media  screen and (max-width: 700px) {
+     nav ul li{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .phone{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .code{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .oxir{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ota{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .lo{
+        flex-direction: column-reverse;
+    }
+    .logo{
+        display: flex;
+           margin-right: 400px;
+      
+        align-items: center;
+    }
+}
+
+
